@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "tailwindcss": "^1.4.6"
+  },
+  "scripts": {
+    "build:style": "npx tailwindcss build styles.css -o output.css"
   }
 }
