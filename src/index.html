@@ -37,7 +37,8 @@
         <div class='m-4 text-gray-900'>
           <p class='sans antialiased tracking-tight text-center'>
             Passionate developer with 4+ years of experience. I'm interested in back end developer roles, especially those with
-            graphql / cloud development. I'm looking for mid - senior level roles that also growth potential.
+            graphql / cloud development. I'm looking for mid - senior level roles that also promote career growth. I prefer to work on
+            a team of developers rather solo so that I can accomplish
         </div>
       </div>
       <!-- Intro End -->
@@ -71,7 +72,7 @@
           <div class="flex flex-wrap text-sm">
             <div class="mt-2 md:w-1/3 p-2">
               <div class="mr-2">
-                <div class="font-bold text-center">Frontend:</div>
+                <div class="font-bold text-center small-hide">Frontend:</div>
 
                 <div class="w-full flex flex-wrap justify-center mt-4">
                   <div class="bg-white rounded-lg shadow-lg w-auto inline-block">
@@ -82,11 +83,13 @@
                         </div>
                         <div class="info-body ">
                           This react application is deployed to and managed through the following AWS Services:
-                          <ol class="list-disc list-inside">
+                          <div class="tracking-tight ml-4">
+                          <ol class="list-disc">
                             <li>CodePipeline</li>
                             <li>Cloud front</li>
                             <li>S3</li>
                           </ol>
+                          </div>
                         </div>
                       </div>
                     </a>
@@ -100,8 +103,8 @@
                         <div class="info-header">
                           UI Source Code
                         </div>
-                        <div class="info-body ">
-                          <ol class="list-disc list-inside">
+                        <div class="info-body tracking-tight ml-4 ">
+                          <ol class="list-disc">
                             <li>
                               Developed using <span class="font-bold">React</span> and written in <span class="font-bold">Typescript</span>.
                             </li>
@@ -116,7 +119,7 @@
 
               </div>
             </div>
-            <div class="mt-2 md:w-1/3 p-2 sm:w-full">
+            <div class="mt-2 md:w-1/3 p-2 sm:w-full small-hide">
               <div class="w-full justify-center">
                 <div class="font-bold text-center">API:</div>
                 <div class="w-full flex justify-center mt-4">
@@ -136,7 +139,7 @@
                 </div>
               </div>
 
-              <div class="w-full justify-center">
+              <div class="w-full justify-center small-hide">
                 <div class="w-full flex justify-center mt-4">
                   <div class="bg-white shadow-lg mt- w-auto inline-block">
                     <a href="https://api.dev.assembleanywhere.com/graphql" target="_blank">
@@ -164,8 +167,8 @@
                         <div class="info-header">
                           Architectural Diagram
                         </div>
-                        <div class="info-body">
-                          <ol class="list-disc list-inside mb-4">
+                        <div class="info-body list-disc">
+                          <ol class="list-disc mb-4">
                             <li>The application is <span class="font-bold">dockerized</span> and runs as a fargate service.</li>
                             <li>Traffic is routed to the fargate service via an Application Load Balancer (ALB).</li>
                             <li>Domain registration is setup through Route53 and points to the ALB.</li>
@@ -200,35 +203,31 @@
           <div class='m-4 pb-4'>
 
             <div class="w-full ">
-              <div class='block'>
-                <p class='antialiased tracking-tight mt-2 mb-2'>
+              <div class='block small-hide'>
+                <p class='antialiased tracking-tight mt-2 mb-2 pb-2 border-b-2'>
                   Non-profit sports company that is focused on making the game of football safer for youth through
-                  online and in person training of coaches across the country. My role involves backend development, creating
-                  tasks for developers to execute too during sprints, reviewing pull requests for both backend and front end development,
-                  and managing deployments to ensure corresponding backend / database / ui changes are shipped successfully.
+                  online and in person training of coaches across the country.
                 </p>
               </div>
-              
-              <div class='list-disc sans antialiased tracking-tightml-4'>
-                <ul class="list-inside list-disc">
+
+              <div class='sans antialiased tracking-tight ml-4'>
+                <ul class="list-disc">
                   <li>Perform code reviews and approval of pull requests from 2 backend developers and 2 front end developers.</li>
-                  <li>Designed and developed backend services to allow purchasing of products from our Learning Management System.
-                    Several hundred thousand dollars of transactions now flow through these services each quarter.
+                  <li>Developed backend services to allow purchasing of products from our Learning Management System.
+                    <span class="small-hide">Several hundred thousand dollars of transactions now flow through these services each quarter.</span>
                   </li>
-                  <li>Refactored service for indexing and populating ElasticSearch (in-memory data store) indices. Our web application was originally
-                    rebuilding indices. This led to time out errors, index failures, and overhead on the web application. The refactored services were deployed to aws lambda
-                    and led to performance improvements by 20x.</li>
+                  <li>Refactored service for indexing and populating ElasticSearch (in-memory data store) indices. <span class="small-hide"> Web application was originally
+                    rebuilding indices and leading to time out errors and index failures. The refactored services were deployed to aws lambda
+                    and accomplished performance improvements by 20x.</span></li>
                   <li>Promoted integration testing by introducing blue print examples and patterns to test services effectively.
-                    Additionally created helper classes to ease the burden of creating key objects such as users accounts / purchases.
-                    Set a requirement for backend developers to write tests cases for new features developed.
+                    <span class="small-hide">Additionally created helper classes to ease the burden of creating key objects such as users accounts / purchases.</span>
                   </li>
                   <li>Developed feature in our administration system to merge user accounts in cases where users register with multiple email addresses.
-                    User information spans 12+ tables that vary in simple relationships like address to complex (product purchases).
-                    Personally developed all aspects of this feature: api, stored procedures, and UI components.
+                    <span class="small-hide">Personally developed all aspects of this feature: api, stored procedures, and UI components.</span>
                   </li>
                   <li>
                     Implemented an elastic heartbeat monitor for company's external facing sites. Heartbeat monitors uptime of a site and stores
-                    historical data in our elastic stack for team to view. Heartbeat was dockerized and deployed as a fargate service.
+                    historical data in our elastic stack for team to view. <span class="small-hide">Heartbeat was dockerized and deployed as a fargate service.</span>
                   </li>
                 </ul>
               </div>
@@ -254,23 +253,23 @@
           </div>
           <div class='m-4 pb-4'>
             <div class="w-full ">
-                <p class='sans antialiased tracking-tight mt-2 mb-2'>
+                <p class='sans antialiased tracking-tight mt-2 mb-2 pb-2 border-b-2 small-hide'>
                   Financial company focused in servicing / collecting student loans and is the largest student loan provided in the US.
-                  Served as full stack developer to add features to an application--Navient Enterprise Application Repository (NEAR)--that allowed searching / browsing a data surrounding navient servers.
+
                   NEAR contained information about all running company servers and their associated software / hardware (i. e. applications installed,
                   security vulnerabilities, name of product owners).
                 </p>
               <div class='list-disc sans antialiased tracking-tight ml-4'>
-                <ul class="list-inside list-disc">
+                <ul class="list-disc">
+                  <li>Served as full stack developer to add features to an application--Navient Enterprise Application Repository (NEAR).
+                    <span class="small-hide">This application was built to allowed searching / browsing a data surrounding navient servers.</span></li>
                   <li>
-                    Team was original extending NEAR using Asp.Net Webforms and facing difficulty in implementing modern features.
-                    Guided group in the direction of using .Net Core Api and React by presenting a proof of concept project and migration path.
+                    Guided group in the direction of using <span class="font-bold">.Net Core Api</span> and <span class="font-bold">React</span>
+                    by presenting a proof of concept projects.
                   </li>
                   <li>
-                    Conceived and implemented backend and UI changes to dynamically render pages based on configuration stored in database.
-                    NEAR originally had 86 individually developed pages performing similar tasks: Collecting input
-                    from text / dropdown / date fields to query and display information in data grids.
-                    Lead to significant reduction in technical debt and improved turn over time for basic change requests.
+                    Conceived and implemented backend and UI changes to Near for dynamically rendering page content based on configuration stored in database.
+                    <span class="small-hide">Lead to significant reduction in technical debt (removed 86 custom made pages) and improved turn over time for basic change requests.</span>
                   </li>
                   <li>
                     Automated build / deployment processes for applications by developing pipelines in Team Foundation Server.
@@ -299,38 +298,43 @@
           </div>
           <div class='m-4 pb-4'>
             <div class="w-full ">
-              <p class='sans antialiased tracking-tight mt-2 mb-2'>
+              <p class='sans antialiased tracking-tight mt-2 mb-2 pb-2 border-b-2 small-hide'>
                 Member of Medical Device Quality Division. Division's goal was to take in data from patient and medical practitioners
                 surrounding the quality of our medical products. My role was to work alongside engineering and clinical staff
                 in analyzing data to measure the quality and safety of JnJ's medical products.
               </p>
               <div class='list-disc sans antialiased tracking-tight ml-4'>
-                <ul class="list-inside list-disc">
+                <ul class="list-disc">
                   <li>
-                    Conceptualized and created an oracle data warehouse (called <span class="font-bold">Bayou</span>) to hold medical device data in a central location.
-                    Data was originally stored various locations across the company in numerous formats (hadoop / BI Tools / Sql Server / excel files).
+                    Architected an <span class="font-bold">oracle</span> data warehouse (called <span class="font-bold">Bayou</span>) for medical device data.
                   </li>
                   <li>
-                    Created pipelines using python to ETL data from various locations into Bayou (data warehouse). Data ETLs executed multiple times a day with extensive
-                    logging to track the outcome and history of individual ETLs. Regularly updated data led greater visibility of operational metrics and led to
-                    performance increases in numerous departments by 30-50%.
+                    Created pipelines using python to ETL data from various locations into Bayou (data warehouse).
+                    <span class="small-hide">
+                      Regularly updated data led to greater visibility of
+                      operational metrics and achieved to performance increases in department by 50%.
+                    </span>
                   </li>
                   <li>
-                    Created templates / examples in <span class="font-bold">python</span> and R for training data scientist / analyst on how to connect and query. Analysts had different
-                    techniques for organizing and managing data to analyse. Allowed standardizing of many analytical techniques across the quality division.
+                    Created templates / examples in <span class="font-bold">python</span> and R for training data scientist / analyst on how to connect and query the Bayou.
                   </li>
                   <li>
-                    Developed dozens of materialized views to structure / normalize data imported from numerous backend sources. Views allowed users like data scientist / business analysis / tableau users
-                    to access and analyze complex medical data consistently.
+                    Developed dozens of materialized views to structure / normalize data imported from numerous backend sources.
+                    <span class="small-hide">
+                      Views allowed simpler and performant access for data scientist / business analysis / tableau users.
+                    </span>
                   </li>
                   <li>
-                    Developed an ASP.net application to query and obtain basic reports from Bayou for lay users. Web application also had dashboards developed using
+                    Developed an <span class="font-bold">ASP.NET</span> application to query and obtain basic reports from Bayou for lay users. Developed dashboards using
                     <span class="font-bold">D3.js</span> to visualize KPI for several department.
                   </li>
                   <li>
-                    Automated generation of dozens of statistical reports using python. Eliminated 40+ hours of labor per month in generating reports.
+                    Automated generation of dozens of statistical reports using python.
+                    <span class="small-hide">
+                      Eliminated 40+ hours of labor per month in generating reports.
+                    </span>
                   </li>
-                  <li>
+                  <li class="small-hide">
                     Served as subject matter expert for  related questions during FDA audits.
                   </li>
                 </ul>
@@ -340,9 +344,7 @@
             <div class="py-4">
               <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">Python</span>
               <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">ASP.Net MVC</span>
-              <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">JQuery</span>
               <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">Oracle</span>
-              <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">Bootstrap</span>
             </div>
           </div>
         </div>
