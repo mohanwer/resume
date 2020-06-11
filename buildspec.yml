@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - yarn install
+
+  build:
+    commands:
+      - yarn build:style
+
+  post_build:
+    commands:
+      # copy the contents of /build to S3
+      - aws s3 cp --recursive --acl public-read ./src s3://mohanwer.com
+
+artifacts:
+  type: zip
+  paths:
+    - './src/**/*'
+    - './cicd/**/*'
+
+cache:
+  paths:
+    - './node_modules/**/*'
