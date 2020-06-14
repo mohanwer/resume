@@ -15,7 +15,7 @@ phases:
     commands:
       # copy the contents of /build to S3
       - aws s3 cp --recursive --acl public-read ./src s3://mohanwer.com
-      - aws cloudfront create-invalidation --distribution-id E19APUK3MOKBX1 --paths "*"
+      - aws cloudfront create-invalidation --distribution-id E19APUK3MOKBX1 --paths "/*"
 
 artifacts:
   type: zip
