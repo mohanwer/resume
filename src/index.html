@@ -29,6 +29,9 @@
         <div>
           <a href='https://github.com/mohanwer' class='inline-block bg-blue-900 rounded px-3 py-1 text-sm font-semibold text-white'>Github</a>
         </div>
+        <div>
+          <a href='./Resume.pdf' class='inline-block bg-blue-600 rounded px-3 py-1 text-sm font-semibold text-white ml-2' target="_blank">Resume</a>
+        </div>
       </div>
       
       <!-- Intro -->
@@ -37,8 +40,8 @@
         <div class='m-4 text-gray-900'>
           <p class='sans antialiased tracking-tight text-center'>
             Passionate developer with 4+ years of engineering experience. I'm interested in backend developer roles, especially those with
-            opportunities in graphql, cloud development, docker. I'm looking for mid to senior level roles that also promote career growth. The ideal role will
-            involve working on large team of developers with cross functional specialities.
+            opportunities in graphql, cloud development, docker. I'm looking for mid to senior level roles that also promote career growth. If you need someone
+            to mentor junior engineers, communicate with business to formulate technical roadmaps, and help set standards for the development team, reach out to me!
         </div>
       </div>
       <!-- Intro End -->
@@ -64,7 +67,7 @@
               <div>
                 An application that provides features similar to meetup.com. In a nutshell, users have the ability to create/host events.
                 Other users can then search and sign up for events near them. This application is broken into seperate projects for the backend
-                and front end. My primary focus is on backend so that portion is has a greater number of features.
+                and front end. My primary focus is on backend so that portion is developed further.
               </div>
             </div>
           </div>
@@ -98,7 +101,7 @@
 
                 <div class="w-full flex justify-center mt-4 md:h-56">
                   <div class="bg-white rounded-lg shadow-lg mt- w-auto inline-block">
-                    <a href="https://dev.assembleanywhere.com/" target="_blank">
+                    <a href="https://github.com/mohanwer/meets-ui" target="_blank">
                       <div class="info-card">
                         <div class="info-header">
                           UI Source Code
@@ -167,8 +170,8 @@
                         <div class="info-header">
                           Architectural Diagram
                         </div>
-                        <div class="info-body list-disc">
-                          <ol class="list-disc mb-4">
+                        <div class="info-body">
+                          <ol class="list-disc ml-4">
                             <li>The application is <span class="font-bold">dockerized</span> and runs as a fargate service.</li>
                             <li>Traffic is routed to the fargate service via an Application Load Balancer (ALB).</li>
                             <li>Domain registration is setup through Route53 and points to the ALB.</li>
@@ -212,30 +215,31 @@
 
               <div class='sans antialiased tracking-tight ml-4'>
                 <ul class="list-disc">
-                  <li>Perform code reviews and approval of pull requests from 2 backend developers and 2 front end developers.</li>
+                  <li>Review pull requests from 2 backend developers and 2 front end developers.</li>
                   <li>Developed backend services to allow purchasing of products from our Learning Management System.
                     <span class="small-hide">Several hundred thousand dollars of transactions now flow through these services each quarter.</span>
                   </li>
-                  <li>Refactored service for indexing and populating ElasticSearch (in-memory data store) indices. <span class="small-hide"> Web application was originally
+                  <li>Refactored service for indexing and populating <span class="font-bold">Elasticsearch</span> (in-memory data store). <span class="small-hide"> Web application was originally
                     rebuilding indices and leading to time out errors and index failures. The refactored services were deployed to aws lambda
                     and accomplished performance improvements by 20x.</span></li>
                   <li>Promoted integration testing by introducing blue print examples and patterns to test services effectively.
-                    <span class="small-hide">Additionally created helper classes to ease the burden of creating key objects such as users accounts / purchases.</span>
+                    <span class="small-hide">Additionally, created helper classes to ease the burden of creating key objects such as users accounts / purchases.</span>
                   </li>
                   <li>Developed feature in our administration system to merge user accounts in cases where users register with multiple email addresses.
-                    <span class="small-hide">Personally developed all aspects of this feature: api, stored procedures, and UI components.</span>
+                    <span class="small-hide">Personally developed all aspects of this feature: api, stored procedures, and UI components <span class="font-bold">(React)</span>.</span>
                   </li>
                   <li>
                     Implemented an elastic heartbeat monitor for company's external facing sites. Heartbeat monitors uptime of a site and stores
-                    historical data in our elastic stack for team to view. <span class="small-hide">Heartbeat was dockerized and deployed as a fargate service.</span>
+                    historical data in our elastic stack for team to view. <span class="small-hide">Heartbeat was <span class="font-bold">dockerized</span> and deployed as a <span class="font-bold">aws</span> fargate service.</span>
                   </li>
                 </ul>
               </div>
             </div>
             <div class="py-4">
                 <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">AWS</span>
-                <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">.Net Core</span>
+                <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">.NET Core</span>
                 <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">React</span>
+                <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">Next.js</span>
                 <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">Docker</span>
             </div>
           </div>
@@ -248,23 +252,20 @@
             <div class='uppercase text-xl font-bold'>
               Navient
             </div>
-            <div class='text-lg'>Senior Data Engineer</div>
+            <div class='text-lg'>Software Engineer</div>
             <div class='italic '>June, 2017 - April, 2018</div>
           </div>
           <div class='m-4 pb-4'>
             <div class="w-full ">
                 <p class='sans antialiased tracking-tight mt-2 mb-2 pb-2 border-b-2 small-hide'>
                   Financial company focused in servicing / collecting student loans and is the largest student loan provided in the US.
-
-                  NEAR contained information about all running company servers and their associated software / hardware (i. e. applications installed,
-                  security vulnerabilities, name of product owners).
                 </p>
               <div class='list-disc sans antialiased tracking-tight ml-4'>
                 <ul class="list-disc">
-                  <li>Served as full stack developer to add features to an application--Navient Enterprise Application Repository (NEAR).
-                    <span class="small-hide">This application was built to allowed searching / browsing a data surrounding navient servers.</span></li>
+                  <li>Served as full stack developer to add features to an application &#8210 Navient Enterprise Application Repository (NEAR).
+                    <span class="small-hide">This application was built to allowed searching data browsing a data surrounding navient servers and IT assets.</span></li>
                   <li>
-                    Guided group in the direction of using <span class="font-bold">.Net Core Api</span> and <span class="font-bold">React</span>
+                    Guided group in the direction of using <span class="font-bold">.NET Core Api</span> and <span class="font-bold">React</span>
                     by presenting a proof of concept projects.
                   </li>
                   <li>
@@ -279,7 +280,7 @@
             </div>
 
             <div class="py-4">
-              <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">.Net Core</span>
+              <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">.NET Core</span>
               <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">React</span>
               <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">Oracle</span>
             </div>
@@ -306,7 +307,7 @@
               <div class='list-disc sans antialiased tracking-tight ml-4'>
                 <ul class="list-disc">
                   <li>
-                    Architected an <span class="font-bold">oracle</span> data warehouse (called <span class="font-bold">Bayou</span>) for medical device data.
+                    Conceived and architected an <span class="font-bold">Oracle</span> data warehouse (called <span class="font-bold">Bayou</span>) for centralizing medical device data.
                   </li>
                   <li>
                     Created pipelines using python to ETL data from various locations into Bayou (data warehouse).
@@ -316,7 +317,8 @@
                     </span>
                   </li>
                   <li>
-                    Created templates / examples in <span class="font-bold">python</span> and R for training data scientist / analyst on how to connect and query the Bayou.
+                    Created templates and examples in <span class="font-bold">python</span> as well as R for training data scientist and analyst on how to connect and query the Bayou.
+                    My goal was to standardize the source of data for numerous statistical measures to ensure repeatibility and validity.
                   </li>
                   <li>
                     Developed dozens of materialized views to structure / normalize data imported from numerous backend sources.
@@ -353,8 +355,31 @@
       <!-- Work History End -->
 
       <!-- Education Begin -->
-      <div class='text-xl font-bold text-center pt-4 pb-4 text-blue-900'>Education</div>
-      <div class="flex justify-center">
+      <div class='text-xl font-bold text-center pt-4 pb-4 text-blue-900'>Education and Certificates</div>
+
+      <div class="flex mt-4 justify-center">
+        <a href="https://www.youracclaim.com/badges/13998f8b-4519-465e-b6bb-0e82cefa2d4c/linked_in_profile" target="_blank">
+          <div class="bg-white p-4 rounded shadow text-center mr-4">
+            <div class="text-lg font-bold">
+              Amazon Web Services Developer - Associate
+            </div>
+            <div class="italic">2019</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex mt-4 justify-center">
+        <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-08-14&ci=AWS00854590" target="_blank">
+          <div class="bg-white p-4 rounded shadow text-center mr-4">
+            <div class="text-lg font-bold">
+              Amazon Web Services Cloud Practitioner
+            </div>
+            <div class="italic">2019</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex mt-4 justify-center">
         <div class="bg-white p-4 rounded shadow text-center mr-4">
           <div class="text-lg font-bold">
             Post-Baccalaureate Certificate in Computer Science
